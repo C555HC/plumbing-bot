@@ -7,6 +7,8 @@
 ## Документация
 
 - [Все идеи по сантехническому сервису](docs/product-ideas.md): аудитория, боли, выгоды, сценарии, возможные функции, интеграция с Авито и варианты предложения мастерам.
+- [Плейбук мастера и LTV-оборудование](docs/plumbing-service-playbook.md): регламентное оборудование с высоким чеком, защита от холостых выездов, скрипт продаж и мультиарендность на одном сервере.
+- [Open-Source основы и UI-стек](docs/open-source-bases-and-ui-skills.md): PocketBase, Twenty CRM, Cal.com, @telegram-apps/telegram-ui, shadcn/ui, TanStack Table и Avito API.
 
 ## Текущий этап
 

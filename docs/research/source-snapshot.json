@@ -1,0 +1,652 @@
+{
+  "checked_date_client": "2026-10-08",
+  "client_timezone": "Europe/Saratov",
+  "research_branch": "codex/research-foundations",
+  "method": "GitHub API repository metadata, default-branch commit, README, available root license files; selected skill files and their licenses; primary author/platform documentation.",
+  "limits": [
+    "Repositories were not installed or run.",
+    "No dependency, security, mobile UX or API integration validation performed.",
+    "Default branch snapshot is not a recommendation to deploy that branch.",
+    "GitHub license_spdx is metadata, not a complete per-file licensing review.",
+    "Documentation pages are mutable; pinned GitHub sources record this research version."
+  ],
+  "repositories": [
+    {
+      "repository": "marmelab/atomic-crm",
+      "url": "https://github.com/marmelab/atomic-crm",
+      "default_branch": "main",
+      "head_sha": "8b5d47ba32190c68801a427ef7682d7a6afc14e0",
+      "head_commit_date": "2026-10-05T13:14:23Z",
+      "pushed_at": "2026-10-05T13:30:38Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "A full-featured CRM built with React, shadcn/ui, and Supabase.",
+      "snapshot_url": "https://github.com/marmelab/atomic-crm/tree/8b5d47ba32190c68801a427ef7682d7a6afc14e0",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/marmelab/atomic-crm/blob/8b5d47ba32190c68801a427ef7682d7a6afc14e0/README.md",
+      "root_license_sources": [
+        "https://github.com/marmelab/atomic-crm/blob/8b5d47ba32190c68801a427ef7682d7a6afc14e0/LICENSE.md"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "default_branch": "main",
+      "head_sha": "5bcb2d694b4adfd756e0acc28d40d6ad9b0491e4",
+      "head_commit_date": "2026-10-07T21:16:11Z",
+      "pushed_at": "2026-10-07T21:52:35Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "NOASSERTION",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "snapshot_url": "https://github.com/twentyhq/twenty/tree/5bcb2d694b4adfd756e0acc28d40d6ad9b0491e4",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/twentyhq/twenty/blob/5bcb2d694b4adfd756e0acc28d40d6ad9b0491e4/README.md",
+      "root_license_sources": [
+        "https://github.com/twentyhq/twenty/blob/5bcb2d694b4adfd756e0acc28d40d6ad9b0491e4/LICENSE"
+      ],
+      "review_note": "Mixed: AGPL-3.0 core with Twenty Application Exception; listed MIT packages; enterprise-marked files commercial. See LICENSE."
+    },
+    {
+      "repository": "espocrm/espocrm",
+      "url": "https://github.com/espocrm/espocrm",
+      "default_branch": "master",
+      "head_sha": "2b1daf37423f389114ddc971504d93efbee83867",
+      "head_commit_date": "2026-10-06T07:47:23Z",
+      "pushed_at": "2026-10-07T09:00:59Z",
+      "archived": false,
+      "disabled": false,
+      "language": "PHP",
+      "license_spdx": "AGPL-3.0",
+      "description": "EspoCRM – Open Source CRM Application",
+      "snapshot_url": "https://github.com/espocrm/espocrm/tree/2b1daf37423f389114ddc971504d93efbee83867",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/espocrm/espocrm/blob/2b1daf37423f389114ddc971504d93efbee83867/README.md",
+      "root_license_sources": [
+        "https://github.com/espocrm/espocrm/blob/2b1daf37423f389114ddc971504d93efbee83867/LICENSE.txt"
+      ],
+      "review_note": "AGPL-3.0 core. Official documentation places Workflows in Advanced Pack."
+    },
+    {
+      "repository": "Dolibarr/dolibarr",
+      "url": "https://github.com/Dolibarr/dolibarr",
+      "default_branch": "develop",
+      "head_sha": "9471cd6776dce876e72d58fe2bed97f4a5165c3a",
+      "head_commit_date": "2026-10-07T21:42:51Z",
+      "pushed_at": "2026-10-07T21:42:56Z",
+      "archived": false,
+      "disabled": false,
+      "language": "PHP",
+      "license_spdx": "GPL-3.0",
+      "description": "Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). it's an open source Web application (written in PHP) designed for businesses of any sizes, foundations and freelancers.",
+      "snapshot_url": "https://github.com/Dolibarr/dolibarr/tree/9471cd6776dce876e72d58fe2bed97f4a5165c3a",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/Dolibarr/dolibarr/blob/9471cd6776dce876e72d58fe2bed97f4a5165c3a/README.md",
+      "root_license_sources": [
+        "https://github.com/Dolibarr/dolibarr/blob/9471cd6776dce876e72d58fe2bed97f4a5165c3a/COPYING"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "frappe/crm",
+      "url": "https://github.com/frappe/crm",
+      "default_branch": "develop",
+      "head_sha": "98368bea3c78efd320ff28758aaece8c8bdcddd9",
+      "head_commit_date": "2026-10-07T11:38:24Z",
+      "pushed_at": "2026-10-07T11:39:18Z",
+      "archived": false,
+      "disabled": false,
+      "language": "Vue",
+      "license_spdx": "AGPL-3.0",
+      "description": "Fully featured, open source CRM",
+      "snapshot_url": "https://github.com/frappe/crm/tree/98368bea3c78efd320ff28758aaece8c8bdcddd9",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/frappe/crm/blob/98368bea3c78efd320ff28758aaece8c8bdcddd9/README.md",
+      "root_license_sources": [
+        "https://github.com/frappe/crm/blob/98368bea3c78efd320ff28758aaece8c8bdcddd9/LICENSE"
+      ],
+      "review_note": "AGPL-3.0 root. Snapshot is develop; inspected README describes it as unstable, with main as stable v1.x."
+    },
+    {
+      "repository": "frappe/erpnext",
+      "url": "https://github.com/frappe/erpnext",
+      "default_branch": "develop",
+      "head_sha": "2985466b755c31a22724546bfdc04aea1dee7178",
+      "head_commit_date": "2026-10-07T16:45:00Z",
+      "pushed_at": "2026-10-07T17:48:55Z",
+      "archived": false,
+      "disabled": false,
+      "language": "Python",
+      "license_spdx": "GPL-3.0",
+      "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+      "snapshot_url": "https://github.com/frappe/erpnext/tree/2985466b755c31a22724546bfdc04aea1dee7178",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/frappe/erpnext/blob/2985466b755c31a22724546bfdc04aea1dee7178/README.md",
+      "root_license_sources": [
+        "https://github.com/frappe/erpnext/blob/2985466b755c31a22724546bfdc04aea1dee7178/license.txt"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "Beveren-Software-Inc/Field_Service_Management",
+      "url": "https://github.com/Beveren-Software-Inc/Field_Service_Management",
+      "default_branch": "develop",
+      "head_sha": "df0ae701a0f389e3d81c5ec6d77b1041486cda86",
+      "head_commit_date": "2026-09-20T06:45:26Z",
+      "pushed_at": "2026-10-06T21:52:57Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "AGPL-3.0",
+      "description": "FSM is a 100% open-source Field Service Management app for ERPNext — a simple, modern, and powerful solution designed to manage end-to-end field service operations.",
+      "snapshot_url": "https://github.com/Beveren-Software-Inc/Field_Service_Management/tree/df0ae701a0f389e3d81c5ec6d77b1041486cda86",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/Beveren-Software-Inc/Field_Service_Management/blob/df0ae701a0f389e3d81c5ec6d77b1041486cda86/README.md",
+      "root_license_sources": [
+        "https://github.com/Beveren-Software-Inc/Field_Service_Management/blob/df0ae701a0f389e3d81c5ec6d77b1041486cda86/license.txt"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "marmelab/react-admin",
+      "url": "https://github.com/marmelab/react-admin",
+      "default_branch": "master",
+      "head_sha": "47890673cae903b9c5a33898c07a12ea94205b5a",
+      "head_commit_date": "2026-10-02T12:05:03Z",
+      "pushed_at": "2026-10-06T14:06:46Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design",
+      "snapshot_url": "https://github.com/marmelab/react-admin/tree/47890673cae903b9c5a33898c07a12ea94205b5a",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/marmelab/react-admin/blob/47890673cae903b9c5a33898c07a12ea94205b5a/README.md",
+      "root_license_sources": [
+        "https://github.com/marmelab/react-admin/blob/47890673cae903b9c5a33898c07a12ea94205b5a/LICENSE.md"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "default_branch": "main",
+      "head_sha": "97ddbf4274ed09d02aa7fd34375f2cf1e48cbbf0",
+      "head_commit_date": "2026-10-07T12:51:00Z",
+      "pushed_at": "2026-10-07T12:55:59Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+      "snapshot_url": "https://github.com/shadcn-ui/ui/tree/97ddbf4274ed09d02aa7fd34375f2cf1e48cbbf0",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/shadcn-ui/ui/blob/97ddbf4274ed09d02aa7fd34375f2cf1e48cbbf0/README.md",
+      "root_license_sources": [
+        "https://github.com/shadcn-ui/ui/blob/97ddbf4274ed09d02aa7fd34375f2cf1e48cbbf0/LICENSE.md"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested.",
+      "additional_skill_sources": [
+        "https://github.com/shadcn-ui/ui/blob/97ddbf4274ed09d02aa7fd34375f2cf1e48cbbf0/skills/shadcn/SKILL.md"
+      ]
+    },
+    {
+      "repository": "TanStack/table",
+      "url": "https://github.com/TanStack/table",
+      "default_branch": "main",
+      "head_sha": "6aa0d74946b393f4f316085998bb6ec31c2ef593",
+      "head_commit_date": "2026-10-07T16:12:59Z",
+      "pushed_at": "2026-10-07T16:19:42Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "🤖 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table",
+      "snapshot_url": "https://github.com/TanStack/table/tree/6aa0d74946b393f4f316085998bb6ec31c2ef593",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/TanStack/table/blob/6aa0d74946b393f4f316085998bb6ec31c2ef593/README.md",
+      "root_license_sources": [
+        "https://github.com/TanStack/table/blob/6aa0d74946b393f4f316085998bb6ec31c2ef593/LICENSE"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "TanStack/virtual",
+      "url": "https://github.com/TanStack/virtual",
+      "default_branch": "main",
+      "head_sha": "78371e851e90fd74e984deeb0c3fd8098e2cd4f3",
+      "head_commit_date": "2026-09-14T10:15:29Z",
+      "pushed_at": "2026-09-21T21:27:02Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "🤖 Headless UI for Virtualizing Large Element Lists in JS/TS, React, Solid, Vue and Svelte",
+      "snapshot_url": "https://github.com/TanStack/virtual/tree/78371e851e90fd74e984deeb0c3fd8098e2cd4f3",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/TanStack/virtual/blob/78371e851e90fd74e984deeb0c3fd8098e2cd4f3/README.md",
+      "root_license_sources": [
+        "https://github.com/TanStack/virtual/blob/78371e851e90fd74e984deeb0c3fd8098e2cd4f3/LICENSE"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "ag-grid/ag-grid",
+      "url": "https://github.com/ag-grid/ag-grid",
+      "default_branch": "latest",
+      "head_sha": "0e3b7a65a10806799034d61b15cd4da9dc7513ca",
+      "head_commit_date": "2026-10-07T14:51:55Z",
+      "pushed_at": "2026-10-07T21:32:34Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "NOASSERTION",
+      "description": "The best JavaScript Data Table for building Enterprise Applications. Supports React / Angular / Vue / Plain JavaScript.",
+      "snapshot_url": "https://github.com/ag-grid/ag-grid/tree/0e3b7a65a10806799034d61b15cd4da9dc7513ca",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/ag-grid/ag-grid/blob/0e3b7a65a10806799034d61b15cd4da9dc7513ca/README.md",
+      "root_license_sources": [
+        "https://github.com/ag-grid/ag-grid/blob/0e3b7a65a10806799034d61b15cd4da9dc7513ca/LICENSE.txt"
+      ],
+      "review_note": "MIT applies to Community packages; Enterprise packages have commercial terms. See LICENSE.txt and official feature comparison."
+    },
+    {
+      "repository": "fullcalendar/fullcalendar",
+      "url": "https://github.com/fullcalendar/fullcalendar",
+      "default_branch": "main",
+      "head_sha": "786d1b27673deef84bc550f936f61b4d4a03a7a0",
+      "head_commit_date": "2026-10-06T01:50:18Z",
+      "pushed_at": "2026-10-06T01:50:27Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "Full-sized drag & drop event calendar in JavaScript",
+      "snapshot_url": "https://github.com/fullcalendar/fullcalendar/tree/786d1b27673deef84bc550f936f61b4d4a03a7a0",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/fullcalendar/fullcalendar/blob/786d1b27673deef84bc550f936f61b4d4a03a7a0/README.md",
+      "root_license_sources": [
+        "https://github.com/fullcalendar/fullcalendar/blob/786d1b27673deef84bc550f936f61b4d4a03a7a0/LICENSE.md"
+      ],
+      "review_note": "Root MIT license is for Standard. Premium has separate terms; commercial product must evaluate Premium separately."
+    },
+    {
+      "repository": "bigcalendar/react-big-calendar",
+      "url": "https://github.com/bigcalendar/react-big-calendar",
+      "default_branch": "master",
+      "head_sha": "183783ad45c8b845c2f57c46711c1c4c85047843",
+      "head_commit_date": "2026-06-01T02:34:35Z",
+      "pushed_at": "2026-06-01T02:34:37Z",
+      "archived": false,
+      "disabled": false,
+      "language": "JavaScript",
+      "license_spdx": "MIT",
+      "description": "gcal/outlook like calendar component",
+      "snapshot_url": "https://github.com/bigcalendar/react-big-calendar/tree/183783ad45c8b845c2f57c46711c1c4c85047843",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/bigcalendar/react-big-calendar/blob/183783ad45c8b845c2f57c46711c1c4c85047843/README.md",
+      "root_license_sources": [
+        "https://github.com/bigcalendar/react-big-calendar/blob/183783ad45c8b845c2f57c46711c1c4c85047843/LICENSE"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested.",
+      "requested_repository_redirected_from": "jquense/react-big-calendar"
+    },
+    {
+      "repository": "gpbl/react-day-picker",
+      "url": "https://github.com/gpbl/react-day-picker",
+      "default_branch": "main",
+      "head_sha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+      "head_commit_date": "2026-09-30T08:58:08Z",
+      "pushed_at": "2026-09-30T09:16:56Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "DayPicker is a customizable date picker component for React. Add date pickers, calendars, and date inputs to your web applications.",
+      "snapshot_url": "https://github.com/gpbl/react-day-picker/tree/1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/gpbl/react-day-picker/blob/1bfd4f0776d66f2242b6b32a1f084ab94e2702da/README.md",
+      "root_license_sources": [
+        "https://github.com/gpbl/react-day-picker/blob/1bfd4f0776d66f2242b6b32a1f084ab94e2702da/LICENSE"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "Telegram-Mini-Apps/tma.js",
+      "url": "https://github.com/Telegram-Mini-Apps/tma.js",
+      "default_branch": "master",
+      "head_sha": "534e6f6ddade50d375750cfc19541f3ee899bca7",
+      "head_commit_date": "2026-07-14T09:58:28Z",
+      "pushed_at": "2026-07-14T10:00:40Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "Made from scratch TypeScript packages, examples and documentation you will surely need to start developing on Telegram Mini Apps.",
+      "snapshot_url": "https://github.com/Telegram-Mini-Apps/tma.js/tree/534e6f6ddade50d375750cfc19541f3ee899bca7",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/Telegram-Mini-Apps/tma.js/blob/534e6f6ddade50d375750cfc19541f3ee899bca7/README.md",
+      "root_license_sources": [
+        "https://github.com/Telegram-Mini-Apps/tma.js/blob/534e6f6ddade50d375750cfc19541f3ee899bca7/LICENSE"
+      ],
+      "review_note": "MIT community toolkit, not an official Telegram SDK."
+    },
+    {
+      "repository": "grammyjs/grammY",
+      "url": "https://github.com/grammyjs/grammY",
+      "default_branch": "main",
+      "head_sha": "ee0c650ed0908b2478c12b863afd03aac8e07212",
+      "head_commit_date": "2026-09-27T06:52:53Z",
+      "pushed_at": "2026-10-01T05:14:18Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "The Telegram Bot Framework.",
+      "snapshot_url": "https://github.com/grammyjs/grammY/tree/ee0c650ed0908b2478c12b863afd03aac8e07212",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/grammyjs/grammY/blob/ee0c650ed0908b2478c12b863afd03aac8e07212/README.md",
+      "root_license_sources": [
+        "https://github.com/grammyjs/grammY/blob/ee0c650ed0908b2478c12b863afd03aac8e07212/LICENSE"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "default_branch": "main",
+      "head_sha": "683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "head_commit_date": "2026-10-05T13:46:42Z",
+      "pushed_at": "2026-10-05T13:46:45Z",
+      "archived": false,
+      "disabled": false,
+      "language": "Python",
+      "license_spdx": null,
+      "description": "Public repository for Agent Skills",
+      "snapshot_url": "https://github.com/anthropics/skills/tree/683bc88e56f3e09ba94f7055977f3d3aa499f202",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/README.md",
+      "root_license_sources": [],
+      "review_note": "No blanket root license established. frontend-design and webapp-testing each have Apache-2.0 LICENSE.txt. Other skills can differ.",
+      "additional_skill_sources": [
+        "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/frontend-design/SKILL.md",
+        "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/frontend-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/webapp-testing/SKILL.md",
+        "https://github.com/anthropics/skills/blob/683bc88e56f3e09ba94f7055977f3d3aa499f202/skills/webapp-testing/LICENSE.txt"
+      ]
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "default_branch": "main",
+      "head_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "head_commit_date": "2026-08-28T13:36:07Z",
+      "pushed_at": "2026-08-28T13:36:31Z",
+      "archived": false,
+      "disabled": false,
+      "language": "JavaScript",
+      "license_spdx": null,
+      "description": "Vercel's official collection of agent skills",
+      "snapshot_url": "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/README.md",
+      "root_license_sources": [],
+      "review_note": "README states MIT; selected React/composition skills also state MIT in frontmatter. No root license file found in inspected listing.",
+      "additional_skill_sources": [
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices/SKILL.md",
+        "https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/composition-patterns/SKILL.md"
+      ]
+    },
+    {
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "default_branch": "main",
+      "head_sha": "477bcb28c9812b385cb51a4605ddf30d7b2266e2",
+      "head_commit_date": "2026-10-03T16:05:26Z",
+      "pushed_at": "2026-10-03T16:05:26Z",
+      "archived": false,
+      "disabled": false,
+      "language": "Python",
+      "license_spdx": "MIT",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "snapshot_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/477bcb28c9812b385cb51a4605ddf30d7b2266e2",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/477bcb28c9812b385cb51a4605ddf30d7b2266e2/README.md",
+      "root_license_sources": [
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/477bcb28c9812b385cb51a4605ddf30d7b2266e2/LICENSE"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested.",
+      "additional_skill_sources": [
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/477bcb28c9812b385cb51a4605ddf30d7b2266e2/.claude/skills/ui-ux-pro-max/SKILL.md"
+      ]
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "default_branch": "main",
+      "head_sha": "778c8a7b71ccd5bfe3ca6ac68c15d9d872d0f87d",
+      "head_commit_date": "2026-10-07T21:04:26Z",
+      "pushed_at": "2026-10-07T21:17:15Z",
+      "archived": false,
+      "disabled": false,
+      "language": "JavaScript",
+      "license_spdx": "Apache-2.0",
+      "description": "The design language that makes your AI harness better at design.",
+      "snapshot_url": "https://github.com/pbakaus/impeccable/tree/778c8a7b71ccd5bfe3ca6ac68c15d9d872d0f87d",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/pbakaus/impeccable/blob/778c8a7b71ccd5bfe3ca6ac68c15d9d872d0f87d/README.md",
+      "root_license_sources": [
+        "https://github.com/pbakaus/impeccable/blob/778c8a7b71ccd5bfe3ca6ac68c15d9d872d0f87d/LICENSE"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested.",
+      "additional_skill_sources": [
+        "https://github.com/pbakaus/impeccable/blob/778c8a7b71ccd5bfe3ca6ac68c15d9d872d0f87d/.agents/skills/impeccable/SKILL.md"
+      ]
+    },
+    {
+      "repository": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "default_branch": "main",
+      "head_sha": "49f948faa9258a0c61caceaf225e179651397431",
+      "head_commit_date": "2026-06-24T02:36:12Z",
+      "pushed_at": "2026-09-08T20:35:26Z",
+      "archived": false,
+      "disabled": false,
+      "language": "Python",
+      "license_spdx": null,
+      "description": "Skills Catalog for Codex",
+      "snapshot_url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/README.md",
+      "root_license_sources": [],
+      "review_note": "README marks repository deprecated in favor of openai/plugins. Per-skill licensing not reviewed."
+    },
+    {
+      "repository": "calcom/cal.diy",
+      "url": "https://github.com/calcom/cal.diy",
+      "default_branch": "main",
+      "head_sha": "54343aa685ae8f33159d2f485ec4a57bad5c574a",
+      "head_commit_date": "2026-09-20T08:17:32Z",
+      "pushed_at": "2026-09-26T07:48:40Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "snapshot_url": "https://github.com/calcom/cal.diy/tree/54343aa685ae8f33159d2f485ec4a57bad5c574a",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/calcom/cal.diy/blob/54343aa685ae8f33159d2f485ec4a57bad5c574a/README.md",
+      "root_license_sources": [
+        "https://github.com/calcom/cal.diy/blob/54343aa685ae8f33159d2f485ec4a57bad5c574a/LICENSE"
+      ],
+      "review_note": "MIT root license; README recommends personal, non-production use and points commercial use to Cal.com.",
+      "requested_repository_redirected_from": "calcom/cal.com"
+    },
+    {
+      "repository": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "default_branch": "main",
+      "head_sha": "5fd93af4cd0c623e020d0cc7e9ce178b4ac1f70f",
+      "head_commit_date": "2026-09-28T17:08:07Z",
+      "pushed_at": "2026-09-28T17:08:10Z",
+      "archived": false,
+      "disabled": false,
+      "language": "JavaScript",
+      "license_spdx": null,
+      "description": "OpenAI Plugins",
+      "snapshot_url": "https://github.com/openai/plugins/tree/5fd93af4cd0c623e020d0cc7e9ce178b4ac1f70f",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/openai/plugins/blob/5fd93af4cd0c623e020d0cc7e9ce178b4ac1f70f/README.md",
+      "root_license_sources": [],
+      "review_note": "No blanket root license established by this review. Specific package licensing needs separate verification."
+    },
+    {
+      "repository": "aiogram/aiogram",
+      "url": "https://github.com/aiogram/aiogram",
+      "default_branch": "dev-3.x",
+      "head_sha": "b17c710ca9a05559e2141e1d16338b83dd50a445",
+      "head_commit_date": "2026-09-27T18:56:43Z",
+      "pushed_at": "2026-09-30T23:42:32Z",
+      "archived": false,
+      "disabled": false,
+      "language": "Python",
+      "license_spdx": "MIT",
+      "description": "aiogram is a modern and fully asynchronous framework for Telegram Bot API written in Python using asyncio",
+      "snapshot_url": "https://github.com/aiogram/aiogram/tree/b17c710ca9a05559e2141e1d16338b83dd50a445",
+      "readme_path": "README.rst",
+      "readme_source": "https://github.com/aiogram/aiogram/blob/b17c710ca9a05559e2141e1d16338b83dd50a445/README.rst",
+      "root_license_sources": [
+        "https://github.com/aiogram/aiogram/blob/b17c710ca9a05559e2141e1d16338b83dd50a445/LICENSE"
+      ],
+      "review_note": "Root license read; runtime, dependencies and production suitability not tested."
+    },
+    {
+      "repository": "vercel/ai",
+      "url": "https://github.com/vercel/ai",
+      "default_branch": "main",
+      "head_sha": "5d42987115905ddf1c2167a2bb72c62d7218ed7c",
+      "head_commit_date": "2026-10-07T21:59:02Z",
+      "pushed_at": "2026-10-07T22:00:32Z",
+      "archived": false,
+      "disabled": false,
+      "language": "TypeScript",
+      "license_spdx": "NOASSERTION",
+      "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+      "snapshot_url": "https://github.com/vercel/ai/tree/5d42987115905ddf1c2167a2bb72c62d7218ed7c",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/vercel/ai/blob/5d42987115905ddf1c2167a2bb72c62d7218ed7c/README.md",
+      "root_license_sources": [
+        "https://github.com/vercel/ai/blob/5d42987115905ddf1c2167a2bb72c62d7218ed7c/LICENSE"
+      ],
+      "review_note": "Root LICENSE contains Apache License 2.0 although GitHub reports NOASSERTION."
+    },
+    {
+      "repository": "zlexdev/avitoapi",
+      "url": "https://github.com/zlexdev/avitoapi",
+      "default_branch": "main",
+      "head_sha": "cbbe51736a1e5a4cefa68be6ed9307e8a1d47958",
+      "head_commit_date": "2026-07-11T21:40:27Z",
+      "pushed_at": "2026-07-11T21:40:27Z",
+      "archived": false,
+      "disabled": false,
+      "language": "Python",
+      "license_spdx": "MIT",
+      "description": "Aiogram-style async Python SDK over the Avito Partner API",
+      "snapshot_url": "https://github.com/zlexdev/avitoapi/tree/cbbe51736a1e5a4cefa68be6ed9307e8a1d47958",
+      "readme_path": "README.md",
+      "readme_source": "https://github.com/zlexdev/avitoapi/blob/cbbe51736a1e5a4cefa68be6ed9307e8a1d47958/README.md",
+      "root_license_sources": [
+        "https://github.com/zlexdev/avitoapi/blob/cbbe51736a1e5a4cefa68be6ed9307e8a1d47958/LICENSE"
+      ],
+      "review_note": "MIT community SDK; API access, account subscription and application rights not verified."
+    }
+  ],
+  "external_primary_sources": [
+    {
+      "url": "https://ui.shadcn.com/docs/components/base/data-table",
+      "purpose": "Official shadcn table guide",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://ui.shadcn.com/docs/skills",
+      "purpose": "Official shadcn skill documentation",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://tanstack.com/table/latest",
+      "purpose": "Official TanStack Table documentation entry",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://www.ag-grid.com/javascript-data-grid/community-vs-enterprise/",
+      "purpose": "Official Community/Enterprise comparison",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://fullcalendar.io/license",
+      "purpose": "Official Standard/Premium licensing",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://fullcalendar.io/docs/timeline-view",
+      "purpose": "Official Premium resource timeline documentation",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://docs.espocrm.com/administration/workflows/",
+      "purpose": "Official workflow documentation: Advanced Pack",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://wiki.dolibarr.org/index.php?title=Module_Interventions_En",
+      "purpose": "Official Interventions module documentation",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://wiki.dolibarr.org/index.php/Module_Interventions_%28developer%29",
+      "purpose": "Official Interventions entity documentation",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://core.telegram.org/bots/webapps",
+      "purpose": "Official Telegram Mini Apps requirements",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://helpdesk.bitrix24.ru/open/28202720/",
+      "purpose": "Official Bitrix24 integration example; not a confirmation of own Avito API eligibility",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://antigravity.google/docs/skills",
+      "purpose": "Official AntiGravity skills documentation",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://agentskills.io/specification",
+      "purpose": "Agent Skills format specification",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/skills-and-plugins",
+      "purpose": "Official OpenAI skills documentation",
+      "checked_date_client": "2026-10-08"
+    },
+    {
+      "url": "https://developers.openai.com/codex/plugins/build",
+      "purpose": "Official OpenAI plugin packaging documentation",
+      "checked_date_client": "2026-10-08"
+    }
+  ],
+  "unverified_source": [
+    {
+      "url": "https://developers.avito.ru/",
+      "status": "Official API pages inaccessible from current research environment; current own-app API rights and subscription requirements not confirmed."
+    }
+  ]
+}

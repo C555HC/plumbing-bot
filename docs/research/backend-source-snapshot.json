@@ -1,0 +1,99 @@
+{
+  "checked_date_client": "2026-10-10",
+  "client_timezone": "Europe/Saratov",
+  "research_branch": "codex/research-foundations",
+  "repositories": [
+    {
+      "repository": "hec-ovi/telegram-bot-skill",
+      "url": "https://github.com/hec-ovi/telegram-bot-skill",
+      "head_sha": "4e2e196b1984d6652fc78b6d508184094a428f78",
+      "default_branch": "main",
+      "head_commit_date": "2026-07-22T12:06:08Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "source_urls": [
+        "https://github.com/hec-ovi/telegram-bot-skill/blob/4e2e196b1984d6652fc78b6d508184094a428f78/LICENSE",
+        "https://github.com/hec-ovi/telegram-bot-skill/blob/4e2e196b1984d6652fc78b6d508184094a428f78/README.md",
+        "https://github.com/hec-ovi/telegram-bot-skill/blob/4e2e196b1984d6652fc78b6d508184094a428f78/SKILL.md"
+      ],
+      "scope": "Metadata, README, root license and listed skill files; not run or installed.",
+      "review_note": "Not selected: bridge from Telegram to local CLI agent, not our service reminder system."
+    },
+    {
+      "repository": "prisma/skills",
+      "url": "https://github.com/prisma/skills",
+      "head_sha": "be16a8740d01363d13552b317042431ee8dfc581",
+      "default_branch": "main",
+      "head_commit_date": "2026-09-30T19:54:56Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "source_urls": [
+        "https://github.com/prisma/skills/blob/be16a8740d01363d13552b317042431ee8dfc581/README.md",
+        "https://github.com/prisma/skills/blob/be16a8740d01363d13552b317042431ee8dfc581/LICENSE",
+        "https://github.com/prisma/skills/blob/be16a8740d01363d13552b317042431ee8dfc581/prisma-client-api/SKILL.md",
+        "https://github.com/prisma/skills/blob/be16a8740d01363d13552b317042431ee8dfc581/prisma-database-setup/SKILL.md",
+        "https://github.com/prisma/skills/blob/be16a8740d01363d13552b317042431ee8dfc581/prisma-orm-setup/SKILL.md"
+      ],
+      "scope": "Metadata, README, root license and listed skill files; not run or installed.",
+      "review_note": "prisma-database-setup is deprecated alias to prisma-orm-setup; setup skill defaults new apps to Prisma 8. Version suitability not decided."
+    },
+    {
+      "repository": "supabase/agent-skills",
+      "url": "https://github.com/supabase/agent-skills",
+      "head_sha": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "default_branch": "main",
+      "head_commit_date": "2026-10-02T12:34:48Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "source_urls": [
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/README.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/LICENSE",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/SKILL.md",
+        "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/SKILL.md"
+      ],
+      "scope": "Metadata, README, root license and listed skill files; not run or installed."
+    },
+    {
+      "repository": "timgit/pg-boss",
+      "url": "https://github.com/timgit/pg-boss",
+      "head_sha": "aa3b4f3ccb68fa610caf62ba04985deb9bc801b1",
+      "default_branch": "master",
+      "head_commit_date": "2026-10-09T14:54:03Z",
+      "license_spdx": "MIT",
+      "archived": false,
+      "source_urls": [
+        "https://github.com/timgit/pg-boss/blob/aa3b4f3ccb68fa610caf62ba04985deb9bc801b1/README.md",
+        "https://github.com/timgit/pg-boss/blob/aa3b4f3ccb68fa610caf62ba04985deb9bc801b1/LICENSE"
+      ],
+      "scope": "Metadata, README, root license and listed skill files; not run or installed."
+    }
+  ],
+  "primary_documentation_urls": [
+    "https://ui.shadcn.com/docs",
+    "https://ui.shadcn.com/docs/skills",
+    "https://www.postgresql.org/about/",
+    "https://www.sqlite.org/whentouse.html",
+    "https://www.pgadmin.org/",
+    "https://supabase.com/docs/guides/database/overview",
+    "https://supabase.com/docs/guides/self-hosting",
+    "https://supabase.com/docs/guides/cron",
+    "https://supabase.com/docs/guides/queues",
+    "https://core.telegram.org/bots#how-do-bots-work",
+    "https://core.telegram.org/bots/faq",
+    "https://core.telegram.org/bots/api#sendmessage",
+    "https://grammy.dev/plugins/auto-retry",
+    "https://grammy.dev/plugins/transformer-throttler",
+    "https://github.com/prisma/orm/tree/main/skills",
+    "https://learn.chatgpt.com/docs/plugins#use-plugins-from-a-supported-surface"
+  ],
+  "additional_candidate": {
+    "url": "https://github.com/HACODE-SOLUTIONS/telegram-bot-starter",
+    "verification": "Author README viewed through web; commit snapshot request had TLS handshake timeout; full SKILL and runtime not reviewed. Not selected."
+  },
+  "limits": [
+    "No installed dependencies or activated external skills.",
+    "No databases deployed or runtime tested.",
+    "Author descriptions do not prove production fitness.",
+    "Current versions, hosting plans, data placement and integration rights are not approved decisions."
+  ]
+}
